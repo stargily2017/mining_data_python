@@ -32,13 +32,18 @@ https://www.kaggle.com/datasets/edumagalhaes/quality-prediction-in-a-mining-proc
 
 ## Descriptive Analysis:
 To find the maximum and minimum date available in dataset:
+
 <img width="370" height="149" alt="image" src="https://github.com/user-attachments/assets/e1b6a3cc-d1a4-4a62-a078-c30e4718ad46" />
+
 ### Create filter for june 2017 data
+
 <img width="623" height="103" alt="image" src="https://github.com/user-attachments/assets/3a5884dc-1ba9-4bcf-8280-67b1acc3670a" />
 
 ###"How do these variables relate to each other? Does the pH level affect the Iron Concentrate?"
 sns.pairplot(df_june_important)
+
 <img width="986" height="986" alt="image" src="https://github.com/user-attachments/assets/c4b8da74-406a-46c0-9b40-c8c77815e599" />
+
 We can create a Correlation Matrix. This calculates a score between -1 and 1 for every relationship.
 
 1.0: Perfect Positive Relationship.
